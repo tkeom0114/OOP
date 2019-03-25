@@ -1,0 +1,468 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1500</width>
+    <height>1000</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <widget class="QWidget" name="centralWidget">
+   <widget class="QLabel" name="weaponLabel">
+    <property name="geometry">
+     <rect>
+      <x>30</x>
+      <y>550</y>
+      <width>80</width>
+      <height>15</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>무기</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="armorLabel">
+    <property name="geometry">
+     <rect>
+      <x>180</x>
+      <y>550</y>
+      <width>80</width>
+      <height>15</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>방어구</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="weaponPic">
+    <property name="geometry">
+     <rect>
+      <x>30</x>
+      <y>400</y>
+      <width>100</width>
+      <height>110</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>무기사진</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="armorPic">
+    <property name="geometry">
+     <rect>
+      <x>180</x>
+      <y>400</y>
+      <width>100</width>
+      <height>110</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>방어구사진</string>
+    </property>
+   </widget>
+   <widget class="ClickQLabel" name="potionPic_1">
+    <property name="geometry">
+     <rect>
+      <x>30</x>
+      <y>660</y>
+      <width>100</width>
+      <height>100</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>포션1</string>
+    </property>
+   </widget>
+   <widget class="ClickQLabel" name="potionPic_2">
+    <property name="geometry">
+     <rect>
+      <x>180</x>
+      <y>660</y>
+      <width>100</width>
+      <height>100</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>포션2</string>
+    </property>
+   </widget>
+   <widget class="ClickQLabel" name="potionPic_4">
+    <property name="geometry">
+     <rect>
+      <x>180</x>
+      <y>780</y>
+      <width>100</width>
+      <height>100</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>포션4</string>
+    </property>
+   </widget>
+   <widget class="ClickQLabel" name="potionPic_3">
+    <property name="geometry">
+     <rect>
+      <x>30</x>
+      <y>780</y>
+      <width>100</width>
+      <height>100</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>포션3</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="potionLabel">
+    <property name="geometry">
+     <rect>
+      <x>30</x>
+      <y>610</y>
+      <width>80</width>
+      <height>15</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>포션</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="characterPic">
+    <property name="geometry">
+     <rect>
+      <x>30</x>
+      <y>30</y>
+      <width>160</width>
+      <height>160</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>캐릭터 사진</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="characterLabel">
+    <property name="geometry">
+     <rect>
+      <x>30</x>
+      <y>210</y>
+      <width>140</width>
+      <height>16</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>학과</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="hpLabel">
+    <property name="geometry">
+     <rect>
+      <x>30</x>
+      <y>240</y>
+      <width>140</width>
+      <height>15</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>체력</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="defenseLabel">
+    <property name="geometry">
+     <rect>
+      <x>30</x>
+      <y>300</y>
+      <width>140</width>
+      <height>15</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>방어력</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="damageLabel">
+    <property name="geometry">
+     <rect>
+      <x>30</x>
+      <y>270</y>
+      <width>140</width>
+      <height>15</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>공격력</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_3">
+    <property name="geometry">
+     <rect>
+      <x>1180</x>
+      <y>130</y>
+      <width>111</width>
+      <height>16</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>몬스터 정보</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="monsterPic_1">
+    <property name="geometry">
+     <rect>
+      <x>1280</x>
+      <y>210</y>
+      <width>80</width>
+      <height>110</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>몬스터사진</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="monsterPic_2">
+    <property name="geometry">
+     <rect>
+      <x>1180</x>
+      <y>450</y>
+      <width>80</width>
+      <height>110</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>몬스터사진</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="monsterPic_3">
+    <property name="geometry">
+     <rect>
+      <x>1360</x>
+      <y>450</y>
+      <width>80</width>
+      <height>110</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>몬스터사진</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="monsterPic_4">
+    <property name="geometry">
+     <rect>
+      <x>1280</x>
+      <y>650</y>
+      <width>80</width>
+      <height>110</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>몬스터사진</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="monName_1">
+    <property name="geometry">
+     <rect>
+      <x>1280</x>
+      <y>330</y>
+      <width>140</width>
+      <height>16</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>이름</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="monHP_1">
+    <property name="geometry">
+     <rect>
+      <x>1280</x>
+      <y>360</y>
+      <width>140</width>
+      <height>16</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>체력</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="monName_2">
+    <property name="geometry">
+     <rect>
+      <x>1180</x>
+      <y>580</y>
+      <width>140</width>
+      <height>16</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>이름</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="monName_3">
+    <property name="geometry">
+     <rect>
+      <x>1360</x>
+      <y>580</y>
+      <width>140</width>
+      <height>16</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>이름</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="monName_4">
+    <property name="geometry">
+     <rect>
+      <x>1280</x>
+      <y>780</y>
+      <width>140</width>
+      <height>16</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>이름</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="monHP_2">
+    <property name="geometry">
+     <rect>
+      <x>1180</x>
+      <y>610</y>
+      <width>140</width>
+      <height>16</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>체력</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="monHP_3">
+    <property name="geometry">
+     <rect>
+      <x>1360</x>
+      <y>610</y>
+      <width>140</width>
+      <height>16</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>체력</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="monHP_4">
+    <property name="geometry">
+     <rect>
+      <x>1280</x>
+      <y>810</y>
+      <width>140</width>
+      <height>16</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>체력</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="turnLabel">
+    <property name="geometry">
+     <rect>
+      <x>30</x>
+      <y>10</y>
+      <width>171</width>
+      <height>16</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>남은 턴 수</string>
+    </property>
+   </widget>
+   <widget class="ClickQLabel" name="potionLabel_2">
+    <property name="geometry">
+     <rect>
+      <x>30</x>
+      <y>910</y>
+      <width>600</width>
+      <height>16</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label">
+    <property name="geometry">
+     <rect>
+      <x>0</x>
+      <y>0</y>
+      <width>1500</width>
+      <height>1000</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>TextLabel</string>
+    </property>
+   </widget>
+   <zorder>label</zorder>
+   <zorder>weaponLabel</zorder>
+   <zorder>armorLabel</zorder>
+   <zorder>weaponPic</zorder>
+   <zorder>armorPic</zorder>
+   <zorder>potionPic_1</zorder>
+   <zorder>potionPic_2</zorder>
+   <zorder>potionPic_4</zorder>
+   <zorder>potionPic_3</zorder>
+   <zorder>potionLabel</zorder>
+   <zorder>characterPic</zorder>
+   <zorder>characterLabel</zorder>
+   <zorder>hpLabel</zorder>
+   <zorder>defenseLabel</zorder>
+   <zorder>damageLabel</zorder>
+   <zorder>label_3</zorder>
+   <zorder>monsterPic_1</zorder>
+   <zorder>monsterPic_2</zorder>
+   <zorder>monsterPic_3</zorder>
+   <zorder>monsterPic_4</zorder>
+   <zorder>monName_1</zorder>
+   <zorder>monHP_1</zorder>
+   <zorder>monName_2</zorder>
+   <zorder>monName_3</zorder>
+   <zorder>monName_4</zorder>
+   <zorder>monHP_2</zorder>
+   <zorder>monHP_3</zorder>
+   <zorder>monHP_4</zorder>
+   <zorder>turnLabel</zorder>
+   <zorder>potionLabel_2</zorder>
+  </widget>
+  <widget class="QMenuBar" name="menuBar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>1500</width>
+     <height>26</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QToolBar" name="mainToolBar">
+   <attribute name="toolBarArea">
+    <enum>TopToolBarArea</enum>
+   </attribute>
+   <attribute name="toolBarBreak">
+    <bool>false</bool>
+   </attribute>
+  </widget>
+  <widget class="QStatusBar" name="statusBar"/>
+ </widget>
+ <layoutdefault spacing="6" margin="11"/>
+ <customwidgets>
+  <customwidget>
+   <class>ClickQLabel</class>
+   <extends>QLabel</extends>
+   <header location="global">clickqlabel.h</header>
+  </customwidget>
+ </customwidgets>
+ <resources/>
+ <connections/>
+</ui>

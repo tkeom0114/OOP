@@ -1,0 +1,208 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>ChooseDialog</class>
+ <widget class="QDialog" name="ChooseDialog">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1013</width>
+    <height>673</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Dialog</string>
+  </property>
+  <widget class="ClickQLabel" name="startLabel">
+   <property name="geometry">
+    <rect>
+     <x>360</x>
+     <y>520</y>
+     <width>273</width>
+     <height>98</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>1013</width>
+     <height>673</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="ClickQLabel" name="characterLabel_1">
+   <property name="geometry">
+    <rect>
+     <x>20</x>
+     <y>116</y>
+     <width>185</width>
+     <height>331</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="ClickQLabel" name="characterLabel_2">
+   <property name="geometry">
+    <rect>
+     <x>200</x>
+     <y>290</y>
+     <width>170</width>
+     <height>355</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="ClickQLabel" name="characterLabel_3">
+   <property name="geometry">
+    <rect>
+     <x>390</x>
+     <y>100</y>
+     <width>168</width>
+     <height>357</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="ClickQLabel" name="characterLabel_4">
+   <property name="geometry">
+    <rect>
+     <x>570</x>
+     <y>299</y>
+     <width>158</width>
+     <height>346</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="ClickQLabel" name="characterLabel_5">
+   <property name="geometry">
+    <rect>
+     <x>750</x>
+     <y>113</y>
+     <width>252</width>
+     <height>344</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QLabel" name="textLabel">
+   <property name="geometry">
+    <rect>
+     <x>390</x>
+     <y>10</y>
+     <width>211</width>
+     <height>65</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QLabel" name="expLabel_1">
+   <property name="geometry">
+    <rect>
+     <x>180</x>
+     <y>110</y>
+     <width>250</width>
+     <height>109</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QLabel" name="expLabel_2">
+   <property name="geometry">
+    <rect>
+     <x>360</x>
+     <y>290</y>
+     <width>250</width>
+     <height>109</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QLabel" name="expLabel_3">
+   <property name="geometry">
+    <rect>
+     <x>540</x>
+     <y>110</y>
+     <width>250</width>
+     <height>109</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QLabel" name="expLabel_4">
+   <property name="geometry">
+    <rect>
+     <x>350</x>
+     <y>290</y>
+     <width>250</width>
+     <height>109</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QLabel" name="expLabel_5">
+   <property name="geometry">
+    <rect>
+     <x>580</x>
+     <y>110</y>
+     <width>250</width>
+     <height>109</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <zorder>label</zorder>
+  <zorder>startLabel</zorder>
+  <zorder>characterLabel_1</zorder>
+  <zorder>characterLabel_2</zorder>
+  <zorder>characterLabel_3</zorder>
+  <zorder>characterLabel_4</zorder>
+  <zorder>characterLabel_5</zorder>
+  <zorder>textLabel</zorder>
+  <zorder>expLabel_1</zorder>
+  <zorder>expLabel_2</zorder>
+  <zorder>expLabel_3</zorder>
+  <zorder>expLabel_4</zorder>
+  <zorder>expLabel_5</zorder>
+ </widget>
+ <customwidgets>
+  <customwidget>
+   <class>ClickQLabel</class>
+   <extends>QLabel</extends>
+   <header location="global">clickqlabel.h</header>
+  </customwidget>
+ </customwidgets>
+ <resources/>
+ <connections/>
+</ui>
