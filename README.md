@@ -6,4 +6,4 @@ Planned by Jeong Won Kim, Tae Kang Eom
 Developed by Tae Kang Eom   
 Illustrated by Hee Yeon Kim 
 
-If you want to execute the project result, execute .exe in Execute File
+If you want to execute the project result, execute OOP_Project.exe in Execute File
